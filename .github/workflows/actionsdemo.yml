@@ -23,9 +23,6 @@ jobs:
       - name: generate build folder
         run: npm run build
 
-      - name: deploy1
-        run: npm run deploy
-
       - name: deploy
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
