@@ -17,7 +17,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-      HELLO Haiti cherie
+      HELLO Haiti cherie mwen
     </div>
   );
 }
